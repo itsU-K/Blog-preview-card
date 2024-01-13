@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&family=Nova+Round&family=Outfit:wght@400;700&family=Poppins:wght@400;500;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      font-family: 'Figtree', sans-serif;
+      background-color: hsl(47, 88%, 63%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sub-container {
+      background-color: hsl(0, 0%, 100%);
+      height: 30rem;
+      width: 22rem;
+      padding: 1rem;
+      border: 1px solid black;
+      box-shadow: 10px 10px;
+      border-radius: 15px;
+      /* min-width: 375px; */
+    }
+
+    .illustration-article {
+      height: 12rem;
+      border-radius: 10px;
+    }
+
+    .containt {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    button {
+      margin-top: 1rem;
+      background-color: hsl(47, 88%, 63%);
+      /* color: black; */
+      border: none;
+      padding: 5px;
+      height: auto;
+      width: 90px;
+      border-radius: 5px;
+      font-weight: 800;
+    }
+
+    .published {
+      font-size: 14px;
+      color: hsl(0, 0%, 7%);
+    }
+
+    .para {
+      font-size: 14px;
+      color: hsl(0, 0%, 50%)
+    }
+
+    .heading {
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .avatar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .image-avatar {
+      height: 2rem;
+    }
+
+    .avatar-name {
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    /* .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    } */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="sub-container">
+      <img class="illustration-article" src="./assets/images/illustration-article.svg" alt="">
+
+      <div class="containt">
+        <button>Learning</button>
+        <p class="published">Published 21 Dec 2023</p>
+        <h1 class="heading">HTML & CSS foundations</h1>
+        <p class="para">These languages are the backbone of every website, defining structure, content, and
+          presentation.</p>
+        <div class="avatar">
+          <img class="image-avatar" src="./assets/images/image-avatar.webp" alt="">
+          <h1 class="avatar-name">Greg Hooper</h1>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Learning
+
+  Published 21 Dec 2023
+
+  HTML & CSS foundations
+
+  These languages are the backbone of every website, defining structure, content, and presentation.
+
+  Greg Hooper
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
